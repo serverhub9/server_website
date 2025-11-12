@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/serverhub-website/static/css/main.f173812d.css",
-    "main.js": "/serverhub-website/static/js/main.ffa1b8be.js",
+    "main.js": "/serverhub-website/static/js/main.8c83b74e.js",
     "static/js/151.42d9bcb5.chunk.js": "/serverhub-website/static/js/151.42d9bcb5.chunk.js",
     "static/js/453.753fb5f2.chunk.js": "/serverhub-website/static/js/453.753fb5f2.chunk.js",
     "static/media/imagecard3.png": "/serverhub-website/static/media/imagecard3.528b34c422898a57ac7d.png",
@@ -19,12 +19,12 @@
     "static/media/div2.png": "/serverhub-website/static/media/div2.00c3583ca59246052b3d.png",
     "index.html": "/serverhub-website/index.html",
     "main.f173812d.css.map": "/serverhub-website/static/css/main.f173812d.css.map",
-    "main.ffa1b8be.js.map": "/serverhub-website/static/js/main.ffa1b8be.js.map",
+    "main.8c83b74e.js.map": "/serverhub-website/static/js/main.8c83b74e.js.map",
     "151.42d9bcb5.chunk.js.map": "/serverhub-website/static/js/151.42d9bcb5.chunk.js.map",
     "453.753fb5f2.chunk.js.map": "/serverhub-website/static/js/453.753fb5f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f173812d.css",
-    "static/js/main.ffa1b8be.js"
+    "static/js/main.8c83b74e.js"
   ]
 }
