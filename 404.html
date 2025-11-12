@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; URL='/index.html'" />
+    <title>Redirecting...</title>
+</head>
+
+<body>
+    <p>Redirecting to <a href="/index.html">/index.html</a>...</p>
+    <script>
+        // Client-side fallback for GitHub Pages SPA routing
+        // Adapted from create-react-app recommended approach
+        (function () {
+            var redirectUrl = '/index.html';
+            if (window.location && window.location.pathname) {
+                // Preserve path as hash for client-side routers
+                var path = window.location.pathname.replace(/^(\/)+/, '/');
+                if (path !== '/' && path !== '/index.html') {
+                    redirectUrl += '#' + path + (window.location.search || '') + (window.location.hash || '');
+                }
+            }
+            window.location.replace(redirectUrl);
+        })();
+    </script>
+</body>
+
+</html>
